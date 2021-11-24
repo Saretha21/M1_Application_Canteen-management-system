@@ -1,1 +1,32 @@
+/*Level 2 Entry*/
+int User_Login(){
+    int opt1; 
+    printf("\nSelect from:-\n\n\t1.Customer Login\n\t2.Vendor Login\n\t3.Back to Main_Menu\n");
+    printf("\nEnter your option: "); scanf("%d",&opt1);
+    while(opt1>3||opt1<1){
+        printf("\nPlease Enter an valid option.:/\n");
+        printf("\nEnter your option: "); scanf("%d",&opt1);
+    }
+    printf("\n********************");
+    if(opt1==1) Cust_Login();
+    if(opt1==2) Vend_Login();
+    if(opt1==3) Main_Menu();
+}
 
+int New_User(){
+    int opt2; 
+    printf("\nSelect from:-\n\n\t1.Register new Customer Login\n\t2.Register new Vendor Login\n\t3.Back to Main_Menu\n");
+    printf("\nEnter your option: "); scanf("%d",&opt2);
+    while(opt2>3||opt2<1){
+        printf("\nPlease Enter an valid option.:/\n");
+        printf("\nEnter your option: "); scanf("%d",&opt2);
+    }
+    printf("\n********************");
+    if(opt2==1) Reg_Cust_Login();
+    if(opt2==2) Reg_Vend_Login();
+    if(opt2==3) Main_Menu();
+}
+
+int Logout(){
+    printf("\n\n******************************************\nThanks for using the system. Have a good day.\n******************************************");
+}
