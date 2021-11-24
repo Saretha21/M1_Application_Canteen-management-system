@@ -1,1 +1,43 @@
+int Reg_Cust_Login(){
+    int opt5; 
+    char id[30], pwd[20],name[30],mail[50];
+    printf("\nSelect from:-\n\n\t1.Register\n\t2.Back to User_Login\n");
+    printf("\nEnter your option: "); scanf("%d",&opt5);
+    while(opt5>2||opt5<1){
+        printf("\nPlease Enter an valid option.:/\n");
+        printf("\nEnter your option: "); scanf("%d",&opt5);
+    }
+    if(opt5==1){
+    printf("\nCustomer id: "); scanf("%s",id);
+    printf("\nCustomer name: "); scanf("%s",name);
+    printf("\nE-Mail:"); scanf("%s",mail);
+    printf("\nSet your Password: "); scanf("%s",pwd);
+    printf("\n********************");
+    Main_Menu();
+    }
+    if(opt5==2){
+        printf("\n********************"); User_Login();    
+    } 
+}
 
+int Reg_Vend_Login(){
+    int opt6;
+    char id[30], pwd[20],name[30],mail[50];
+    printf("\nSelect from:-\n\n\t1.Register\n\t2.Back to User_Login\n");
+    printf("\nEnter your option: "); scanf("%d",&opt6);
+    while(opt6>2||opt6<1){
+        printf("\nPlease Enter an valid option.:/\n");
+        printf("\nEnter your option: "); scanf("%d",&opt6);
+    }
+    if(opt6==1){
+    printf("\nVendor id: "); scanf("%s",id);
+    printf("\nVendor name: "); scanf("%s",name);
+    printf("\nE-Mail:"); scanf("%s",mail);
+    printf("\nSet your Password: "); scanf("%s",pwd);
+    printf("\n********************");
+    Main_Menu();
+    }
+    if(opt6==2){
+        printf("\n********************"); User_Login();
+    }
+}
