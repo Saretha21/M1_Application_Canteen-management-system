@@ -1,1 +1,15 @@
-
+/*Level 1 Entry*/
+int Main_Menu(){
+    int choice;
+    printf("\nSelect from:-\n\n\t1.User Login\n\t2.Registering New User\n\t3.Log out\n");
+    printf("\nEnter your option: "); scanf("%d",&choice);
+    while(choice>3||choice<1)
+    {
+        printf("\nPlease Enter an valid option.:/\n");
+        printf("\nEnter your option: "); scanf("%d",&choice);
+    }
+    printf("\n********************");
+    if(choice==1) User_Login();
+    if(choice==2) New_User();
+    if(choice==3) Logout();
+}
