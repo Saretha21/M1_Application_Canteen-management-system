@@ -9,7 +9,7 @@ FEATURES
 •	User login
 •	Registering New user
 •	Change Password
-•	Logout
+•	 Logout
                                             
 
 SWOT ANALYSIS
@@ -40,26 +40,23 @@ How: This project is implemented to maintain the records of the customer’s ord
 
 HIGH LEVEL REQUIREMENTS
 
-   S:NO	DESCRIPTION	 STATUS
+   S:NO	        DESCRIPTION	 STATUS
    HLR 1	C LANGUAGE	IMPLEMENTED
    HLR 2	OS WINDOWS	
    HLR 3	HARDDISK	IMPLEMENTED
-   HLR 4	RAM 4GB	IMPLEMENTED
+   HLR 4	RAM 4GB	        IMPLEMENTED
 
 
 
 LOW LEVEL REQUIREMENTS
 
-  S:NO	DESCRIPTION	  STATUS
-  LLR 1	ADD ORDERS	IMPLEMENTED
-  LLR 2	DELETE ORDERS	IMPLEMENTED
-  LLR 3	SEARCH MENU	IMPLEMENTED
-  LLR 4	VIEW ORDERS	IMPLEMENTED
+  S:NO	  DESCRIPTION	        STATUS
+  LLR 1	  ADD ORDERS	       IMPLEMENTED
+  LLR 2	  DELETE ORDERS	       IMPLEMENTED
+  LLR 3   SEARCH MENU	       IMPLEMENTED
+  LLR 4   VIEW ORDERS	       IMPLEMENTED
 
 DESIGN
-STRUCTURAL DIAGRAM
-![Structural diagram](https://user-images.githubusercontent.com/94306281/143377884-d08e4b8a-2df9-4434-9ed8-ed1037f60ea7.png)
+BEHAVOURIAL DIAGRAM
 
-BEHAVIOURAL DIAGRAM
-![Behavioural Diagram](https://user-images.githubusercontent.com/94306281/143378413-8e3d621e-572a-49c4-9eb9-242f34a86561.png)
 
