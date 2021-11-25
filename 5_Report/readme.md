@@ -9,7 +9,7 @@ FEATURES
 •	User login
 •	Registering New user
 •	Change Password
-•	 Logout
+•	Logout
                                             
 
 SWOT ANALYSIS
@@ -61,4 +61,5 @@ STRUCTURAL DIAGRAM
 ![Structural diagram](https://user-images.githubusercontent.com/94306281/143377884-d08e4b8a-2df9-4434-9ed8-ed1037f60ea7.png)
 
 BEHAVIOURAL DIAGRAM
+![Behavioural Diagram](https://user-images.githubusercontent.com/94306281/143378413-8e3d621e-572a-49c4-9eb9-242f34a86561.png)
 
