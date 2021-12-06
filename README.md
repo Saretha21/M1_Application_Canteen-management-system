@@ -5,3 +5,5 @@
 [![Codacy Badge](https://api.codiga.io/project/30343/status/svg)](https://app.codiga.io/public/project/30343/M1_Application_Canteen-management-system/dashboard)
 
 [![Codacy Badge](https://api.codiga.io/project/30343/score/svg)](https://app.codiga.io/public/project/30343/M1_Application_Canteen-management-system/dashboard)
+
+[![Code Quality - Static Code - Cppcheck](https://github.com/Saretha21/M1_Application_Canteen-management-system/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Saretha21/M1_Application_Canteen-management-system/actions/workflows/c-cpp.yml)
